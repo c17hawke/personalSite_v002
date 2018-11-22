@@ -1,0 +1,196 @@
+body {
+  color: #ECF2F9;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  /* it also inherites property from its parent i.e body*/
+  color: #66BFBF;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5.625rem; /*16px = 100% = 1em IMP:if you use rem instead em it prevents inheritence from parent body*/
+  margin: 50px auto 2 auto;
+  /* line-height: 2; */
+
+}
+.name{
+  color: #66BFBF;
+  font-family: 'Alex Brush', cursive;
+}
+.designation{
+  color: #66BFBF;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 100%;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Kaushan Script', cursive;
+
+}
+p{
+    line-height: 2;
+}
+
+.top-container {
+  /* background-color: #1E0411; */
+  /* background-image: linear-gradient(black,grey, black); */
+  background-image: url(http://miriadna.com/desctopwalls/images/max/Drops-on-feather.jpg);
+
+  padding-top: 100px;
+  position: relative;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.middle-container {
+  /* background-color: #1E0411; */
+  /* background-image: linear-gradient(black,grey, black); */
+  background-image: url(http://miriadna.com/desctopwalls/images/max/Drops-on-feather.jpg);
+  padding-top: 100px;
+  position: relative;
+}
+.bottom-container {
+  /* background-color: #1E0411; */
+  top: 20px;
+  background-image: linear-gradient(black);
+  padding-top: 20px 0 20px;
+  position: relative;
+}
+
+.contact-me {
+  /* background-color: #1E0411; */
+  background-image: linear-gradient(black);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+/* .bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+} */
+
+.top-cloud {
+  position: absolute;
+  right: 375px;
+  /* top: 0px; */
+}
+
+.my_image {
+  border-radius: 100%;
+  width: 10%;
+}
+.footer-link{
+  color: #11999E;
+}
+/* .butn{
+  color: #11999E;
+  margin: auto 60px auto 60px;
+} */
+.skill-row{
+
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+.programming{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.ros{
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  width: 25%;
+}
+.contact-msg{
+  width: 40%;
+  margin: 60px auto 60px;
+}
+.butn {
+  background: #263640;
+  background-image: -webkit-linear-gradient(top, #263640, #87c8f0);
+  background-image: -moz-linear-gradient(top, #263640, #87c8f0);
+  background-image: -ms-linear-gradient(top, #263640, #87c8f0);
+  background-image: -o-linear-gradient(top, #263640, #87c8f0);
+  background-image: linear-gradient(to bottom, #263640, #87c8f0);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Kaushan Script', cursive;
+  /* font-family: Arial; */
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 17px 5px 17px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #bbf0e1;
+  background-image: -webkit-linear-gradient(top, #bbf0e1, #375747);
+  background-image: -moz-linear-gradient(top, #bbf0e1, #375747);
+  background-image: -ms-linear-gradient(top, #bbf0e1, #375747);
+  background-image: -o-linear-gradient(top, #bbf0e1, #375747);
+  background-image: linear-gradient(to bottom, #bbf0e1, #375747);
+  text-decoration: none;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+/* .mid-container{
+  background-image: url(https://c.pxhere.com/photos/4a/e6/spring_tree_flowers_meadow_wood_forest_sun_summer-985038.jpg!d);
+  height: 200px;
+  width: 200px;
+
+
+}
+.bottom-container{
+  background-image: url(https://c.pxhere.com/photos/4a/e6/spring_tree_flowers_meadow_wood_forest_sun_summer-985038.jpg!d);
+  height: 200px;
+  width: 200px;
+
+
+} */
