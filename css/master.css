@@ -7,7 +7,7 @@ body {
 
 h1 {
   /* it also inherites property from its parent i.e body*/
-  color: #66BFBF;
+  color: #085b6d;
   font-family: 'Kaushan Script', cursive;
   font-size: 5.625rem; /*16px = 100% = 1em IMP:if you use rem instead em it prevents inheritence from parent body*/
   margin: 50px auto 2 auto;
@@ -15,24 +15,24 @@ h1 {
 
 }
 .name{
-  color: #66BFBF;
+  color: #085b6d;
   font-family: 'Alex Brush', cursive;
 }
 .designation{
-  color: #66BFBF;
+  color: #085b6d;
   font-family: 'Kaushan Script', cursive;
   font-size: 2.5rem;
   font-weight: normal;
 }
 h2 {
-  color: #66BFBF;
+  color: #085b6d;
   font-family: 'Kaushan Script', cursive;
   font-size: 100%;
 
 }
 
 h3 {
-  color: #11999E;
+  color: #02856e;
   font-family: 'Kaushan Script', cursive;
 
 }
