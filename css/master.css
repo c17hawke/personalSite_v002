@@ -1,5 +1,5 @@
 body {
-  color: #ECF2F9;
+  color: black;
   font-family: 'Comfortaa', cursive;
   margin: 0;
   text-align: center;
@@ -98,16 +98,12 @@ p{
     color: white;
 }
 
-/* Twitter */
+/* Linkedin */
 .fa-linkedin {
     background: #55ACEE;
     color: white;
 }
-/* .bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-} */
+
 
 .top-cloud {
   position: absolute;
@@ -180,17 +176,4 @@ p{
   font-size: 0.75rem;
   padding-top: 10px;
 }
-/* .mid-container{
-  background-image: url(https://c.pxhere.com/photos/4a/e6/spring_tree_flowers_meadow_wood_forest_sun_summer-985038.jpg!d);
-  height: 200px;
-  width: 200px;
 
-
-}
-.bottom-container{
-  background-image: url(https://c.pxhere.com/photos/4a/e6/spring_tree_flowers_meadow_wood_forest_sun_summer-985038.jpg!d);
-  height: 200px;
-  width: 200px;
-
-
-} */
